@@ -1,0 +1,86 @@
+{
+  "name": "CriarCertoManager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@mdi/js": "^5.7.55",
+    "@vue/composition-api": "^1.6.2",
+    "apexcharts": "^3.35.3",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "chokidar": "^3.5.3",
+    "core-js": "^3.23.1",
+    "crypto-md5": "^1.0.0",
+    "date-fns": "^2.16.1",
+    "dotenv": "^16.0.1",
+    "fix": "^0.0.3",
+    "i": "^0.3.6",
+    "image-to-base64": "^2.2.0",
+    "moment": "^2.29.1",
+    "roboto-fontface": "*",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.4.19",
+    "vue": "^2.6.12",
+    "vue-apexcharts": "^1.6.2",
+    "vue-blob-json-csv": "^0.1.7",
+    "vue-fragment": "^1.5.2",
+    "vue-i18n": "^8.27.2",
+    "vue-json-excel": "^0.3.0",
+    "vue-jwt-decode": "^0.1.0",
+    "vue-moment": "^4.1.0",
+    "vue-notification": "^1.3.20",
+    "vue-pincode-input": "^0.4.0",
+    "vue-router": "^3.4.6",
+    "vue-the-mask": "^0.11.1",
+    "vuetify": "^2.5.8",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "^5.0.6",
+    "@vue/cli-plugin-eslint": "^5.0.6",
+    "@vue/cli-service": "^5.0.6",
+    "@vue/eslint-config-airbnb": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-vue": "^9.1.1",
+    "eslint-plugin-vuejs-accessibility": "^1.1.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.3",
+    "vue-template-compiler": "^2.6.12",
+    "vuetify-loader": "^1.7.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/airbnb"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser",
+      "vueFeatures": {
+        "filter": true,
+        "interpolationAsNonHTML": false
+      }
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

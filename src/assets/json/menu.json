@@ -1,0 +1,60 @@
+[
+ 
+  {
+    "id": 1,
+    "title": "Dashboard",
+    "icon": "mdi-chart-box",
+    "to": "/",
+    "permission": "public"
+  },
+  {
+    "id": 2,
+    "title": "Gerenciar Parâmetros",
+    "icon": "mdi-database",
+    "to": "/gerenciarparametros",
+    "permission": "admin"
+  },
+
+  {
+    "id": 3,
+    "title": "Visualizar os Parâmetros",
+    "icon": "mdi-list-box-outline",
+    "to": "/parametros",
+    "permission": "tec"
+
+  },
+   
+  {
+    "id": 4,
+    "title": "Gerenciar Usuários",
+    "icon": "mdi-account-multiple",
+    "to": "/usuarios/gerenciar",
+    "permission": "admin"
+
+  },
+
+
+
+  {
+    "id": 7,
+    "title": "Ajuda",
+    "icon": "mdi-help",
+    "to": "/ajuda/ajuda",
+    "permission": "tec"
+
+  },
+
+
+  {
+    "id": 8,
+    "title": "Sobre",
+    "icon": "mdi-information",
+    "to": "/sobre/index",
+    "permission": "public"
+  }
+
+ 
+
+  
+  
+]
